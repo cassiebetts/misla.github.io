@@ -1,0 +1,144 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mainmenu .navbar-nav li a {
+        font-size: 12px;
+        padding: 30px 11px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 20px 10px;
+    }
+    .logo {
+        float: none;
+        text-align: center;
+    }
+    .menu-bg .logo {
+        padding-top: 15px;
+    }
+    .play-video {
+        margin-left: -63px;
+    }
+    .work_info {
+        top: 35px;
+    }
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggle .icon-bar {
+        background: #f8f8f8;
+    }
+    .menu-bg .navbar-toggle .icon-bar {
+        background: #3ac4fa;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        margin-top: -30px;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navbar-toggle {
+        margin-top: -34px;
+    }
+    .navbar-collapse {
+        background: #213253;
+    }
+    .menu-bg .navbar-collapse {
+        background: #1f3051;
+    }
+    .single-slide-item h2 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    a.slide-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+        width: 120px;
+    }
+    .welcome-control {
+        display: none;
+    }
+    .single-slide-item p {
+        margin-bottom: 5px;
+    }
+    .section-title h2 {
+        font-size: 20px;
+    }
+    .start_project > p {
+        padding: 0 20px 0 0;
+    }
+    .great-started-text h4 {
+        font-size: 15px;
+    }
+    ul.work li {
+        margin: 2px 0 5px;
+        padding: 8px 10px;
+    }
+    .work_info {
+        top: 30%;
+    }
+    .item_info h2 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .single-post-content h4 > a {
+        font-size: 16px;
+    }
+    .contact-from button {
+        padding: 10px 20px;
+    }
+    .footer-social {
+        margin-top: 30px;
+    }
+    .play-video {
+        margin-left: -43px;
+    }
+    .single-service-box {
+        padding: 20px;
+    }
+	.video-container h2 {
+        font-size: 24px;
+		line-height:24px;
+    }
+    .single-testimonial p {
+        padding: 0 10px;
+    }
+    .single-contact-detail > p {
+        font-size: 12px;
+    }
+    .footer-text.text-center.pull-left {
+        float: none !important;
+        text-align: center;
+    }
+    .footer-social {
+        float: none !important;
+        text-align: center;
+    }
+    .footer-social li a {
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+    }
+    .scrollup {
+        bottom: 83px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .play-video {
+        margin-left: -55px;
+    }
+    .work_info {
+        top: 43%;
+    }
