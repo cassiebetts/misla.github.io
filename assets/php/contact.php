@@ -6,7 +6,7 @@
 $post = (!empty($_POST)) ? true : false;
 
 if($post){
-    $to = "themepokehelpline@gmail.com"; // Your e-mail here
+    $to = "cassiebetts@gmail.com"; // Your e-mail here
 	$name = stripslashes($_POST['name']);
 	$email = stripslashes($_POST['email']);
 	$subject = stripslashes($_POST['subject']);
