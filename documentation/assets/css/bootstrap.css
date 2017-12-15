@@ -55,7 +55,8 @@ section {
 
 audio,
 canvas,
-video {
+/* video  */
+{
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -2541,9 +2542,9 @@ table th[class*="span"],
   background-position: -408px -48px;
 }
 
-.icon-facetime-video {
+/* .icon-facetime-video {
   background-position: -432px -48px;
-}
+} */
 
 .icon-picture {
   background-position: -456px -48px;
