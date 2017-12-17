@@ -577,7 +577,7 @@ a.about-btn:hover {
     padding-top: 130px;
     position: relative;
 	background-image: url(img/bg/video-bg.jpg);
-	background-size:cover; 
+	background-size:cover;
     background-position: center center;
 	background-attachment:fixed;
 }
@@ -919,7 +919,7 @@ ul.work li.active {
     zoom: 1;
     *display: inline;
     /*IE7 life-saver */
-    
+
     ;
 }
 .owl-carousel .owl-controls {
@@ -942,7 +942,7 @@ ul.work li.active {
     background: #f3a02f;
     filter: Alpha(Opacity=100);
     /*IE7 fix*/
-    
+
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
@@ -1189,7 +1189,7 @@ a.blog-btn {
 /*16.START ITEM DEATIALS DESIGN*/
 
 .itam_details {
-    background: rgba(255, 147, 0, 0.33);
+    background: #ff9300;
     padding: 30px 0;
 }
 .item_info h2 {
