@@ -39,7 +39,7 @@ app
                 to: email,
                 subject: "New Lead from Misla.org",
                 html: `
-                    <p><b>Timestamp: </b> ${timestamp}</p>
+                    <p><b>Date Sent: </b> ${timestamp}</p>
                     <p><b>From: </b> ${fromEmail}</p>
                     <p><b>Subject: </b> ${subject}</p>
                     <p><b>Message: </b> ${message}</p>
